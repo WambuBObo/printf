@@ -32,4 +32,5 @@ void print_binary(unsigned int n, unsigned int* printed);
 int print_unsignedToBinary(va_list arg);
 int print_oct(va_list arg);
 int print_percent(void);
+int print_char(va_list arg);
 #endif
