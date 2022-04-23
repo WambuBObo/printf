@@ -34,4 +34,5 @@ int print_oct(va_list arg);
 int print_percent(void);
 int print_char(va_list arg);
 int print_hex_base(va_list arg, char _case);
+int print_add(va_list arguments, char *buf, unsigned int ibuf)
 #endif
