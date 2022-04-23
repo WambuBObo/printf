@@ -33,4 +33,5 @@ int print_unsignedToBinary(va_list arg);
 int print_oct(va_list arg);
 int print_percent(void);
 int print_char(va_list arg);
+int print_hex_base(va_list arg, char _case);
 #endif
