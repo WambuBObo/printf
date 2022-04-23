@@ -28,5 +28,6 @@ int print_p(va_list p);
 int print_S(va_list S);
 int print_r(va_list r);
 int print_R(va_list R);
-
+void print_binary(unsigned int n, unsigned int* printed);
+int print_unsignedToBinary(va_list arg);
 #endif
